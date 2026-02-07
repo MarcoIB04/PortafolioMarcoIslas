@@ -1,5 +1,5 @@
 import { Title, Text, Stack, Avatar, Box } from '@mantine/core'
-import { profileImg } from '../assets'
+import profileImg from '../assets/profile.jpg'
 
 const ABOUT_PARAGRAPHS = [
   'I am a Software Engineer with a strong passion for video games and game development, where creativity and technical problem-solving naturally intersect. I enjoy exploring how ideas become interactive experiences, from designing gameplay systems to building the underlying software that supports them.',

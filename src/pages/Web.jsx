@@ -1,6 +1,8 @@
 import { Title, Text, Stack } from '@mantine/core'
 import ProjectCard from '../components/ProjectCard'
-import { natureVenture1, natureVenture5, natureVenture6 } from '../assets'
+import natureVenture1 from '../assets/NatureVenture/NatureVenture1.gif'
+import natureVenture5 from '../assets/NatureVenture/NatureVenture5.jpeg'
+import natureVenture6 from '../assets/NatureVenture/NatureVenture6.jpeg'
 
 const TICKET_GO_DESCRIPTION = `Developed Ticket Go, a technical support ticket management system with both mobile and web platforms, designed to streamline issue reporting and tracking within organizations.
 

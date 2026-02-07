@@ -1,15 +1,13 @@
 import { Title, Text, Stack } from '@mantine/core'
 import ProjectCard from '../components/ProjectCard'
-import {
-  tanukiSunset1,
-  tanukiSunset2,
-  tanukiSunset3,
-  natureVenture1,
-  natureVenture2,
-  natureVenture3,
-  natureVenture4,
-  natureVenture6,
-} from '../assets'
+import tanukiSunset1 from '../assets/TanukiSunset/TanukiSunset1.gif'
+import tanukiSunset2 from '../assets/TanukiSunset/TanukiSunset2.gif'
+import tanukiSunset3 from '../assets/TanukiSunset/TanukiSunset3.gif'
+import natureVenture1 from '../assets/NatureVenture/NatureVenture1.gif'
+import natureVenture2 from '../assets/NatureVenture/NatureVenture2.gif'
+import natureVenture3 from '../assets/NatureVenture/NatureVenture3.gif'
+import natureVenture4 from '../assets/NatureVenture/NatureVenture4.gif'
+import natureVenture6 from '../assets/NatureVenture/NatureVenture6.jpeg'
 
 const TANUKI_EVIDENCE = [
   {

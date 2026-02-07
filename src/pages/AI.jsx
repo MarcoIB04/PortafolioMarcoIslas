@@ -1,6 +1,8 @@
 import { Title, Text, Stack } from '@mantine/core'
 import ProjectCard from '../components/ProjectCard'
-import { tanukiSunset1, tanukiSunset2, tanukiSunset3 } from '../assets'
+import tanukiSunset1 from '../assets/TanukiSunset/TanukiSunset1.gif'
+import tanukiSunset2 from '../assets/TanukiSunset/TanukiSunset2.gif'
+import tanukiSunset3 from '../assets/TanukiSunset/TanukiSunset3.gif'
 
 const TANUKI_EVIDENCE = [
   {

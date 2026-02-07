@@ -7,7 +7,7 @@ import {
   Divider,
 } from '@mantine/core'
 import { IconInfoCircle, IconCode } from '@tabler/icons-react'
-import { profileImg } from '../assets'
+import profileImg from '../assets/profile.jpg'
 
 const SIDEBAR_WIDTH_EXPANDED = 260
 const SIDEBAR_WIDTH_COLLAPSED = 80
