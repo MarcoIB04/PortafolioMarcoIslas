@@ -7,12 +7,12 @@ import { Card, Text } from '@mantine/core'
 export default function EvidenceCard({ src, alt = '', description }) {
   return (
     <Card shadow="sm" padding="sm" radius="md" withBorder>
-      <Card.Section>
+      <Card.Section style={{ display: 'flex', justifyContent: 'center', padding: '8px' }}>
         <img
           src={src}
           alt={alt}
           style={{
-            width: '100%',
+            width: '70%',
             height: 'auto',
             display: 'block',
             objectFit: 'cover',
