@@ -1,4 +1,5 @@
 import { Title, Text, Stack, Avatar, Box } from '@mantine/core'
+import { profileImg } from '../assets'
 
 const ABOUT_PARAGRAPHS = [
   'I am a Software Engineer with a strong passion for video games and game development, where creativity and technical problem-solving naturally intersect. I enjoy exploring how ideas become interactive experiences, from designing gameplay systems to building the underlying software that supports them.',
@@ -24,7 +25,7 @@ export default function Profile() {
     <Stack gap="xl">
       <Stack gap="md" align="center">
         <Avatar
-          src="/profile.jpg"
+          src={profileImg}
           radius="xl"
           size={120}
           style={{ border: '3px solid var(--mantine-color-violet-6)' }}

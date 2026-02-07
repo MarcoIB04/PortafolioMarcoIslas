@@ -1,21 +1,22 @@
 import { Title, Text, Stack } from '@mantine/core'
 import ProjectCard from '../components/ProjectCard'
+import { tanukiSunset1, tanukiSunset2, tanukiSunset3 } from '../assets'
 
 const TANUKI_EVIDENCE = [
   {
-    src: '/TanukiSunset/TanukiSunset1.gif',
+    src: tanukiSunset1,
     alt: 'Player Profiling Agent',
     description:
       "Agent used to detect the player's gaming style. The agent obtains the player's information and returns a percentage for each gaming style. For training, the agreement between the obtained percentages and the real percentages calculated from data obtained in multiple runs of the agent is computed.",
   },
   {
-    src: '/TanukiSunset/TanukiSunset2.gif',
+    src: tanukiSunset2,
     alt: 'Environment Adaptation Agent',
     description:
       "Agent that obtains the percentages from the first style-detection agent and returns the obstacle to be placed on the track. The agent was rewarded according to the chosen obstacle multiplied by the percentage of style corresponding to the obstacle type.",
   },
   {
-    src: '/TanukiSunset/TanukiSunset3.gif',
+    src: tanukiSunset3,
     alt: 'Simulated player agent demo',
     description:
       'Demonstration of one of the trained tanukis to simulate player behavior.',

@@ -1,5 +1,6 @@
 import { Title, Text, Stack } from '@mantine/core'
 import ProjectCard from '../components/ProjectCard'
+import { natureVenture1, natureVenture5, natureVenture6 } from '../assets'
 
 const TICKET_GO_DESCRIPTION = `Developed Ticket Go, a technical support ticket management system with both mobile and web platforms, designed to streamline issue reporting and tracking within organizations.
 
@@ -27,17 +28,17 @@ The web interface was built with React.js, HTML, and CSS, with a backend on Node
 
 const NATURE_VENTURE_WEB_EVIDENCE = [
   {
-    src: '/NatureVenture/NatureVenture5.jpeg',
+    src: natureVenture5,
     alt: 'Dashboard login',
     description: 'Login screen of the Nature Venture web dashboard.',
   },
   {
-    src: '/NatureVenture/NatureVenture6.jpeg',
+    src: natureVenture6,
     alt: 'Dashboard overview',
     description: 'Dashboard showing player ranking and achievements for each player.',
   },
   {
-    src: '/NatureVenture/NatureVenture1.gif',
+    src: natureVenture1,
     alt: 'Nature Venture game',
     description: 'Gameplay overview: educational farming simulation the dashboard supports.',
   },

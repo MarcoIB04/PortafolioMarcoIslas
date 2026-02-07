@@ -7,6 +7,7 @@ import {
   Divider,
 } from '@mantine/core'
 import { IconInfoCircle, IconCode } from '@tabler/icons-react'
+import { profileImg } from '../assets'
 
 const SIDEBAR_WIDTH_EXPANDED = 260
 const SIDEBAR_WIDTH_COLLAPSED = 80
@@ -38,7 +39,7 @@ export default function Sidebar({ opened, onToggle, currentPage, onNavigate }) {
 
         {/* Avatar */}
         <Avatar
-          src="/profile.jpg"
+          src={profileImg}
           radius="xl"
           size={opened ? 72 : 44}
           styles={{
