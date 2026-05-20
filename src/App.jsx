@@ -68,7 +68,7 @@ export default function App() {
       />
 
       <AppShell.Main
-        p="xl"
+        p={currentPage === PAGES.profile ? 0 : 'xl'}
         style={{
           minHeight: '100vh',
           marginLeft: navbarWidth,

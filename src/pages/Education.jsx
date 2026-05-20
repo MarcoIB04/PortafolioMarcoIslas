@@ -18,7 +18,7 @@ export default function Education() {
           Instituto Tecnológico y de Estudios Superiores de Monterrey — ITESM
         </Title>
         <Text fw={500} mb={4}>
-          Currently pursuing a B.S. in Computer Science and Technology – 5th semester
+          Currently pursuing a B.S. in Computer Science and Technology – 6th semester
         </Text>
         <Text size="sm" c="dimmed">
           #1 university in Mexico and #4 in Latin America
@@ -62,8 +62,8 @@ export default function Education() {
           Certificates
         </Title>
         <Text size="sm">
-          VMEdu Scrum Fundamentals Certified (March 2025), PCEP Certified Entry-Level
-          Python Programmer (October 2023)
+          VMEdu Scrum for DevOps (May 2026), VMEdu Scrum Fundamentals Certified (March 2025),
+          PCEP Certified Entry-Level Python Programmer (October 2023)
         </Text>
       </Box>
 
@@ -83,13 +83,13 @@ export default function Education() {
               <Text component="span" fw={500}>
                 Languages:
               </Text>{' '}
-              C++, C#, Kotlin, JavaScript, Python, SQL.
+              C++, C#, Kotlin, JavaScript, Python, SQL, NoSQL, PL/SQL.
             </Text>
             <Text size="sm">
               <Text component="span" fw={500}>
                 Tools/Frameworks:
               </Text>{' '}
-              Unity, Node.js, Git, AWS, React.js
+              Unity, Node.js, Git, React.js, Oracle, AWS (S3, Lambda, EC2, API Gateway)
             </Text>
           </Box>
           <Box>
